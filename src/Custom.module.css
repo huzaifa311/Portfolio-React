@@ -1,0 +1,33 @@
+.textShadow {
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
+}
+
+.bgimg {
+    background-image: url("./Images/bgHome.jpg");
+    background-blend-mode: darken;
+}
+
+.boxShadow {
+    border: 2px solid rgb(219, 209, 209);
+    border-radius: 30px;
+    box-shadow: 10px 10px 60px rgba(0.5, 0, 0, 0.5);
+}
+
+@media (max-width: 639px) {
+    .media {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media (max-width: 486px) {
+    .media {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 372px) {
+    .media {
+        margin-left: 3%;
+        margin-right: 0;
+    }
+}
