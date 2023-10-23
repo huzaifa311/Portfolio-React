@@ -35,9 +35,9 @@ const Home = () => {
 
       <div className='flex flex-wrap justify-center mt-5'>
 
-        <ProjectCard img={blog} headingF={'BLOGGING WEB'} headingB={'Blogging Website'} para={'Blogging Website using React Js, Tailwind and FireBase'} hostingUrl={"https://blog-react-tau.vercel.app/"} key={5} />
+        <ProjectCard img={blog} headingF={'BLOGGING WEB'} headingB={'Blogging Website'} para={'Blog App using React, Tailwind & FireBase'} hostingUrl={"https://blog-react-tau.vercel.app/"} key={5} />
 
-        <ProjectCard img={porfolio} headingF={'PORTFOLIO WEBSITE'} headingB={'My Portfolio'} para={'Portfolio Website Using Html,Css & Javascript'} hostingUrl={'https://react-weather-alpha-dusky.vercel.app/'} key={2} />
+        <ProjectCard img={porfolio} headingF={'PORTFOLIO WEBSITE'} headingB={'My Portfolio'} para={'Portfolio Website Using React Js'} hostingUrl={'https://react-weather-alpha-dusky.vercel.app/'} key={2} />
 
         <ProjectCard img={weather} headingF={'WEATHER APP'} headingB={'React Js Weather App'} para={'Weather App by React & tailwind.'} hostingUrl={'https://react-weather-alpha-dusky.vercel.app/'} key={1} />
 
